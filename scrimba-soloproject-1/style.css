@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 868px;
+    width: 550px;
+}
+
+.main--container {
+    display: flex;
+    flex-direction: column;
+    height: 780px;
+    width: 317px; 
+    margin-left: 116px;
+    margin-top: 44px;
+    background-color: #1A1B21;
+}
+
+.div--texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.info--image {
+    height: 317px;
+    width: 317px;
+}
+
+.info--name {
+    font-size: 25px;
+    line-height: 100%;
+    color: white;
+    margin-top: 21px;
+    margin-bottom: 6px;
+}
+
+.info--work {
+    margin-top: 0px;
+    margin-left: 30px;
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+
+.div--buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.emailBtn {
+    background-color: #D1D5DB;
+    color: black;
+    margin-right: 17px;
+    width: 115px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    
+}
+
+.linkedInBtn {
+    background-color: #5093E2;
+    color: white;
+    width: 115px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.fa-paper-plane, .fa-linkedin {
+    margin-right: 9.5px;
+}
+
+.emailBtn:hover {
+    background-color: white;
+}
+
+.linkedInBtn:hover {
+    background-color: #247ce3;
+}
+
+.text--container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 247px;
+    height: 200px;
+    margin-top: 33px;
+    margin-left: 36px;
+}
+
+.abtText, .infoText {
+    font-size: 10px;
+}
+
+.interestsHeader, .aboutHeader {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    height: 64px;
+    width: 317px;
+    background-color: #161619;
+}
+
+.gitBtn {
+    height: 25px;
+    width: 25px;
+    margin-top: 19.5px;
+    background-color: #918E9B;
+    border: none;
+    border-radius: 5px;
+}
